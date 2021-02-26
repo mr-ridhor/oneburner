@@ -1,0 +1,213 @@
+.navbar{
+    background-color: white;
+}
+
+.pad{
+    margin-bottom: 500px;
+}
+
+.bt{
+   border:none;
+   padding:80px;
+   border-radius: 70px;
+   width: 125px;
+   background-color:rgba(80, 10, 192, 0.808) ;
+   height: 40px;
+   color:white;
+   text-align: center;
+    
+}
+.disabled{
+    overflow-x: hidden;
+}
+.pd{
+    margin:180px 100px 5px 180px;
+    color: rgb(108, 51, 199);
+    font-size:xx-large;
+    font-weight:1000px;
+    line-height: 30px;
+
+}
+.pe{
+    margin:30px 100px 30px 180px;
+    font-weight:lighter;
+}
+.b{
+    border:none;
+    padding:90px;
+    border-radius: 70px;
+    width: 160px;
+    background-color:rgba(80, 10, 192, 0.808) ;
+    height: 45px;
+    color:white;
+     
+ }
+ /* .circle{
+     border: 2px dashed #fefefe;
+     padding: 200px;
+     border-radius: 500px;
+     display: inline-block; 
+      margin:30px 100px 30px;
+
+ } */
+ svg{
+    height: 700px;
+    width: 700px;
+    padding: 60px;
+    content:initial;
+  }
+  circle {
+    fill: transparent;
+    stroke: #ddd;
+    stroke-width: 0.4;
+  }
+  section{
+      overflow-y:unset ;
+  }
+  .dashed {
+    stroke-dasharray: 4, 4.5;
+  }
+  .Circle1{
+  width: 130px;
+  height:130px;
+  bordeR: none;
+  border-radius: 50%;
+  background-color: rgb(206, 26, 26);
+  margin-top: -600px ;
+  padding: 20px;
+  backface-visibility: hidden;
+  margin-inline: 70px;
+  position:unset;
+  }
+  .rectan{
+  width: 140px;
+  height:50px;
+  border: none; 
+  border-radius: 5px;
+  background-color: rgb(206, 26, 26); 
+  backface-visibility: hidden;
+  content-visibility:unset;
+  text-align: center;
+  margin-top: -50px;
+  margin-inline: 65px;
+  color: white;
+  padding:10px;
+  margin-right: -10px;
+
+  }
+  .Circle2{
+    width: 130px;
+    height:130px;
+    bordeR: none;
+    border-radius: 50%;
+    background-color: rgba(243, 211, 142, 0.925);
+    margin-top: 80px ;
+    padding: 10px;
+    backface-visibility: hidden;
+    margin-inline: 50px;
+   
+    }
+    .rectan2{
+        width: 140px;
+        height:50px;
+        border: none; 
+        border-radius: 5px;
+        background-color: rgba(243, 211, 142, 0.925);
+        backface-visibility: hidden;
+        content-visibility:unset;
+        text-align: center;
+        margin-top: 70px;
+        margin-inline: 4px;
+        color: white;
+        padding:10px;
+        margin-left: -10px;
+      
+        }
+    
+        .Circle3{
+            width: 130px;
+            height:130px;
+            bordeR: none;
+            border-radius: 50%;
+            background-color:purple;
+            margin-top: -190px ;
+            padding: 10px;
+            backface-visibility: hidden;
+            margin-inline: 450px;
+        
+            }
+            .rectan3{
+                width: 140px;
+                height:50px;
+                border: none; 
+                border-radius: 5px;
+                background-color: purple;
+                backface-visibility: hidden;
+                content-visibility:unset;
+                text-align: center;
+                margin-top: 70px;
+                margin-inline: 4px;
+                color: white;
+                padding:10px;
+                margin-left: -10px;
+              
+                }
+    .message {      
+        /* color: white; */
+        padding: 10px;
+        /* line-height: 26px; */
+        font-size: 16px;
+        /* border:groove 7px; */
+        /* margin-bottom: 30px; */
+        width: 180px;
+        position: relative;
+        /* border-color: gre; */
+        height: 60px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        
+        
+      }
+      .message::after {
+        bottom: 100%;
+        left: 7%;
+        border: solid transparent;
+        content: " ";
+        height: 0;
+        width: 0;
+        position: absolute;
+        pointer-events: none;
+        border-bottom-color:gainsboro;
+        border-width: 10px;
+        margin-left: -10px;
+        /* background: white; */
+        /* box-shadow: honeydew; */
+        /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19) */
+      }
+      
+      .my-message {
+        background: white;
+        
+      }
+      .chatbox1{
+          margin-top: -220px;
+          margin-inline: 250px;
+      }
+     
+      
+      .other-message {
+        background: rgba(243, 211, 142, 0.925);
+    }
+        .other-message::after {
+          border-bottom-color:rgba(243, 211, 142, 0.925);;
+          left: 93%;
+        }
+      
+      
+      .chatbox2{
+        margin-top: 80px;
+        margin-inline: 220px;
+    }
+    .chatbox3{
+        margin-top: 220px;
+        margin-inline: 250px;
+    }
