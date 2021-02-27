@@ -3,7 +3,7 @@ const path = require ('path');
 
 const app =express();
 
-app.us(express.static('./dist/oneburner'));
+app.use(express.static('./dist/oneburner'));
 
 app.get('/*', (res,req)=>
     res.sendFile('index.html', {root: 'dist/oneburner/'}),
